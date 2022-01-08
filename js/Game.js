@@ -136,26 +136,7 @@ class Game {
 
   showLeaderboard() 
   {
-    var leader1, leader2;
-    var players = Object.values(allPlayers);
-    if (
-      (players[0].rank === 0 && players[1].rank === 0) ||
-      players[0].rank === 1
-    ) {
-      // &emsp;    This tag is used for displaying four spaces.
-      leader1 =
-        players[0].rank +
-        "&emsp;" +
-        players[0].name +
-        "&emsp;" +
-        players[0].score;
-
-      leader2 =
-        players[1].rank +
-        "&emsp;" +
-        players[1].name +
-        "&emsp;" +
-        players[1].score;
+   //do it here
     }
 
     if (players[1].rank === 1) {
